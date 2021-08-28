@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quienes somos</title>
-</head>
-<body>
-    
-<h1>Quienes somos</h1>
-
-</body>
-</html>
+@extends('plantilla')
+@section('content')
+<title>QUIENES SOMOS!</title>
+<h1>QUIENES SOMOS</h1>
+@endsection

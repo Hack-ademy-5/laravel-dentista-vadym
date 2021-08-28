@@ -1,10 +1,8 @@
 @extends('plantilla')
 @section('content')
-<title>PAGINA DE CONTACTO!</title>
-<h1>PAGINA DE CONTACTO</h1>
-@endsection
+<title>HOME!</title>
+<h1>HOMEEEEE</h1>
 
-@section('paginaContactoDiv')
 <div class="container m-5 p-5 h-100">
     <div class="row">
         <div class="col-12 col-md-6">
@@ -25,4 +23,32 @@
         </div>
     </div>
 </div>
+
+<div class="container m-5 p-5 h-100">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <p class="small text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                eligendi quasi blanditiis harum. Repellendus vitae provident ea minus neque dolor aliquid, officia
+                nostrum dicta, rem voluptates est fuga ad! Omnis!
+            </p>
+        </div>
+    </div>
+</div>
+@endsection
+
+
+@section('nose')
+<div class="container m-5 p-5 h-100">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <p class="small text-muted mt-3">sdvcsdvsdvcsvsdvsfcasedewgtkjhjghfefdahjwFBSEJHBCSDHJVB DFHBV SDHJVB SJHC SDJC 
+            dvcsdvsdvcsvsdvsfcasedewgtkjhjghfefdahjwFBSEJHBCSDHJVB DFHBV SDHJVB SJHC SDJC
+            dvcsdsdvcsvsdvsfcasedewgtkjhjghfefdahjwFBSEJHBCSDHJVB DFHBV SDHJVB SJHC SDJC
+            dvcsdvsdvcsvsdvsfcasedewgtkjhjghfefdahjwFBSEJHBCSDHJVB DFHBV SDHJVB SJHC SDJC
+            dvcsdvsdvcsvsdvsfcasedewgtkjhjghfefdahjwFBSEJHBCSDHJVB DFHBV SDHJVB SJHC SDJC
+            </p>
+        </div>
+    </div>
+</div>
+
 @endsection

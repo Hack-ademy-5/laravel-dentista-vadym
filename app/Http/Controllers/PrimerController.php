@@ -7,9 +7,9 @@ use Illuminate\Http\Request;
 class PrimerController extends Controller     //Esto se nos agrega solo al crear el controlador con "php artisan make:controller PrimerController"  
 {
     
-    public function homepage()               //Aqui delegamos subfunciones del archivo web.php para dejar ese archivo mas limpio
+    public function home()               //Aqui delegamos subfunciones del archivo web.php para dejar ese archivo mas limpio
     {
-        return view('homepage');
+        return view('home');
     }
     
     public function paginadecontacto() 
@@ -27,9 +27,9 @@ class PrimerController extends Controller     //Esto se nos agrega solo al crear
         return view('aboutUs');
     }
 
-    function dondeestamos() 
+    function donde() 
     {
-        return view('dondeEstamos');
+        return view('donde');
     }
 
 }
